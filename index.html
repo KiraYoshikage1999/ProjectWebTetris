@@ -1,0 +1,43 @@
+<!--Project Web Tetris-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Веб - Тетрис</title>
+</head>
+<body>
+    
+
+    <nav>
+        <ul>
+        <li><a href="#SectionOfTetris">Тетрис</a></li>
+        <li><a href="#Form">NavTo2</a></li>
+        </ul>
+    </nav>
+
+    <h1></h1>
+
+
+    <!--Field of Tetris-->
+    <section id="SectionOfTetris">
+        <h2>Тетрис Игра</h2>
+        <div class="tetrisWrapperDiv">
+            <canvas id="board" width="300" height="600"></canvas>
+            <div class="sidebarDiv">
+                <h3>Окно с данными</h3>
+                <p>Очки: <span id="score">0</span></p>
+                <p>Рекорд: <span id="bestScore">0</span></p>
+                <button id="startButton">Начать Игру</button>
+                <button id="stopButton">Остановить Игру</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JavaScript Code -->
+    <script type="module" src="scripts/script.js"></script>
+</body>
+</html>
